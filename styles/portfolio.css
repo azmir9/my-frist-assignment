@@ -10,6 +10,11 @@
 }
 .banner-image {
     margin-right: auto;
+    padding-left: 50px;
+}
+
+.header-button{
+    padding-right: 50px;
 }
 
 .btn {
@@ -31,7 +36,7 @@ header {
     background-color: #FFFFFF;
     color: #30B868; 
     border-radius: 10px;
-    margin: auto;
+    margin: 0 auto;
     width: 150px;
 
 }
@@ -171,7 +176,7 @@ nav .menu a{
     padding: 30px 0;
 }
 #skills {
-    padding-top: 130px;
+    padding-top: 50px;
 }
 #skills .skills-container {
     width: 70%;
@@ -213,8 +218,11 @@ nav .menu a{
 
  #footer{
     background-color: rgb(2,55,120);
-    height:325px;
+    height:300px;
     padding: 100px;
+    max-width: 1600px;
+    justify-content: center;
+    align-items: center;
  }
  
  
@@ -227,7 +235,7 @@ nav .menu a{
 
 
  #footer .copyright{
-    padding-top: 130px;
+    padding-top: 60px;
     color:white;
 
  }
@@ -236,6 +244,7 @@ nav .menu a{
 }
 #ready {
     padding-top: 120px;
+    margin-bottom: 40px;
 }
 #ready .ready-container {
     width: 70%;
@@ -260,18 +269,25 @@ nav .menu a{
     margin-bottom: 25px;
     color: #627382;
 }
-.section-heading .fourth {
+/* .section-heading .fourth {
      background-color: #469165;
     border: none;
-    /* margin-left: 380px; */
-    padding: 12px 16px;
+    margin-left: 380px;
+    padding: 16px 18px;
     border-radius: 5px;
     font-size: 16px;
     font-weight: bold;
     color: #FFFFFF;
-}
-.fourth img{
-    content: auto;
+    justify-content: center;
+    
+} */
+
+
+.ready-button img{
+    padding-top: 5px;
+    justify-content: center;
+    align-items: center;
+   
 }
 #div-text {
     padding: 50px;
@@ -279,4 +295,29 @@ nav .menu a{
 }
 #div-text h2 {
     font-size: 48px ;
+}
+
+
+.ready-button{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+      background-color: #469165;
+    border: none;
+ 
+    padding: 16px 18px;
+    border-radius: 5px;
+   
+    color: #FFFFFF;
+    justify-content: center;
+    width:300px;
+    margin:0 auto;
+}
+
+.fourth {
+    border:none;
+    background-color: transparent;
+    color: white;
+     font-size: 16px;
+    font-weight: bold;
 }
